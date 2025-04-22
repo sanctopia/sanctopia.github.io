@@ -40,6 +40,7 @@
   --font-sans: 'Catamaran Variable', 'sans-serif';
   --color-gold: #C2A97F;
   --color-brown: #392C25;
+  --color-dark-green: #0D1619;
 }
 
 .btn {
@@ -52,6 +53,10 @@
 
 .btn-xl {
   @apply px-12 py-8 text-base shadow-xl;
+}
+
+.h2 {
+  @apply text-gold text-3xl lg:text-5xl uppercase font-serif font-bold;
 }
 
 .title {
