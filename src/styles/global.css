@@ -55,7 +55,7 @@
 }
 
 .title {
-  @apply text-gold text-5xl lg:text-6xl font-bold uppercase font-serif;
+  @apply text-gold text-5xl lg:text-6xl font-bold uppercase font-serif leading-[0.6] lg:leading-[0.8];
 }
 
 .suptitle {
