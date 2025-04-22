@@ -1,0 +1,67 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "sanctopia";
+  default: false;
+  prefersdark: false;
+  color-scheme: "light";
+  --color-base-100: #FFFBF4;
+  --color-base-200: #F8F0E3;
+  --color-base-300: #C2B7A5;
+  --color-base-content: #655A50;
+  --color-primary: #C2A97F;
+  --color-primary-content: oklch(42% 0.095 57.708);
+  --color-secondary: #392C25;
+  --color-secondary-content: #D9D9D9;
+  --color-accent: #0D232A;
+  --color-accent-content: #B6C6CC;
+  --color-neutral: #F8F0E3;
+  --color-neutral-content: #655A50;
+  --color-info: oklch(70% 0.14 182.503);
+  --color-info-content: oklch(38% 0.063 188.416);
+  --color-success: oklch(76% 0.233 130.85);
+  --color-success-content: oklch(40% 0.101 131.063);
+  --color-warning: oklch(90% 0.182 98.111);
+  --color-warning-content: oklch(41% 0.112 45.904);
+  --color-error: oklch(70% 0.213 47.604);
+  --color-error-content: oklch(25% 0.092 26.042);
+  --radius-selector: 1rem;
+  --radius-field: 0.5rem;
+  --radius-box: 3rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@theme {
+  --font-serif: 'Cormorant Garamond Variable', 'serif';
+  --font-sans: 'Catamaran Variable', 'sans-serif';
+  --color-gold: #C2A97F;
+  --color-brown: #392C25;
+}
+
+.btn {
+  @apply uppercase border-none transition;
+}
+
+.btn:hover {
+  transform: scale(1.05)
+}
+
+.btn-xl {
+  @apply px-12 py-8 text-base shadow-xl;
+}
+
+.title {
+  @apply text-gold text-5xl lg:text-6xl font-bold uppercase font-serif;
+}
+
+.suptitle {
+  @apply text-gold text-lg lg:text-xl font-bold uppercase font-serif;
+}
+
+.subtitle {
+  @apply text-brown text-lg lg:text-2xl uppercase font-serif
+}
