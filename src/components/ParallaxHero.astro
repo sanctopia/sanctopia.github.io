@@ -20,7 +20,7 @@ const { images } = Astro.props;
   window.addEventListener("scroll", () => {
     const scrollY = window.scrollY;
     if (scrollY / firstLayer.height < 0.38) {
-      layers[totalLayers - 1].style.setProperty('top', `-${scrollY}px`)
+      layers[totalLayers - 1].style.setProperty('top', `-${scrollY / 1.2}px`)
       layers[totalLayers - 2].style.setProperty('top', `-${scrollY / 2}px`)
       layers[totalLayers - 3].style.setProperty('top', `-${scrollY / 3}px`)
       layers[totalLayers - 4].style.setProperty('top', `-${scrollY / 4}px`)
