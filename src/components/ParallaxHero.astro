@@ -1,0 +1,29 @@
+---
+import { Image } from 'astro:assets';
+
+const { images } = Astro.props;
+---
+
+<div class="relative min-h-screen w-full">
+  {
+    images.map((image, index) => (
+      <Image src={image} data-parallax-hero-layer={index} alt="Sanctopia hero" class="absolute max-w-none min-h-screen w-full object-cover object-top" />
+    ))
+  }
+</div>
+
+<script>
+  let layers = document.querySelectorAll('[data-parallax-hero-layer]');
+  let totalLayers = layers.length;
+  let firstLayer = layers[0];
+
+  window.addEventListener("scroll", () => {
+    const scrollY = window.scrollY;
+    if (scrollY / firstLayer.height < 0.38) {
+      layers[totalLayers - 1].style.setProperty('top', `-${scrollY}px`)
+      layers[totalLayers - 2].style.setProperty('top', `-${scrollY / 2}px`)
+      layers[totalLayers - 3].style.setProperty('top', `-${scrollY / 3}px`)
+      layers[totalLayers - 4].style.setProperty('top', `-${scrollY / 4}px`)
+    }
+  });
+</script>
