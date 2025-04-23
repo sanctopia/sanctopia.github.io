@@ -1,0 +1,9 @@
+---
+const { title, description, state, slug } = Astro.props;
+---
+
+<div class="bg-cyan-900 rounded-lg shadow-lg p-12 relative relative">
+  <a href={`/projets/${slug}`} class="block absolute inset-0"></a>
+  <h3 class="text-cyan-100 font-bold text-lg">{title}</h3>
+  <p class="text-cyan-400">{description}</p>
+</div>

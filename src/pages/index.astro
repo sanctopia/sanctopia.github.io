@@ -1,15 +1,19 @@
 ---
+import { getCollection, getEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
-import ParallaxHero from '../components/ParallaxHero.astro'
+import ParallaxHero from '../components/ParallaxHero.astro';
+import ProjectCard from '../components/ProjectCard.astro';
 import heroImage from '../assets/images/home/hero.png';
 import layer0 from '../assets/images/home/hero_layers/layer_0.png';
 import layer1 from '../assets/images/home/hero_layers/layer_1.png';
 import layer2 from '../assets/images/home/hero_layers/layer_2.png';
 import layer3 from '../assets/images/home/hero_layers/layer_3.png';
 import layer4 from '../assets/images/home/hero_layers/layer_4.png';
+
+const projects = await getCollection('projects');
 ---
 
-<Layout title="Association Sanctopia">
+<Layout title="Association Sanctopia" description="Sanctopia est la vision d’un monde anti-spéciste où tous les animaux, sans distinction d’espèce, sont traités avec le même respect, la même bienveillance et le même soin que dans un sanctuaire.">
   <div class="relative">
     <ParallaxHero images={[heroImage, layer0, layer1, layer2, layer3, layer4]} />
     <div class="flex flex-col absolute inset-0 h-dvh">
@@ -25,6 +29,11 @@ import layer4 from '../assets/images/home/hero_layers/layer_4.png';
     <section class="bg-dark-green flex flex-col lg:gap-2 items-center px-12 lg:pt-36 h-dvh overflow-hidden">
       <h2 class="h2 intersect:motion-preset-slide-right motion-duration-500">Nos projets</h1>
       <p class="text-neutral text-center text-sm lg:text-lg intersect:motion-preset-slide-left motion-duration-500">Chaque projet a pour but d’aider la cause animale</p>
+      <ul>
+        {projects.map(project => (
+          <ProjectCard {...project.data} />
+        ))}
+      </ul>
     </section>
   </div>
 </Layout>
