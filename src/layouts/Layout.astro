@@ -5,11 +5,16 @@ import '@fontsource-variable/catamaran';
 import "../styles/global.css";
 import BaseHead from "../components/BaseHead.astro";
 
+
 const { title } = Astro.props;
 ---
 
 <html lang="fr" data-theme="sanctopia">
 	<head>
+    <script>
+      import { Observer } from 'tailwindcss-intersect';
+      Observer.start();
+    </script>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
