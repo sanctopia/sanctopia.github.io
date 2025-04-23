@@ -4,10 +4,10 @@ import { Image } from 'astro:assets';
 const { images } = Astro.props;
 ---
 
-<div class="relative min-h-screen w-full">
+<div class="relative min-h-dvh w-full">
   {
     images.map((image, index) => (
-      <Image src={image} data-parallax-hero-layer={index} alt="Sanctopia hero" class="absolute max-w-none min-h-screen w-full object-cover object-top" />
+      <Image src={image} data-parallax-hero-layer={index} alt="Sanctopia hero" class="absolute max-w-none min-h-dvh w-full object-cover object-top" />
     ))
   }
 </div>
