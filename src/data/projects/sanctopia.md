@@ -9,6 +9,7 @@ launch_date: 2025-09-01
 image_card: "../../assets/images/projects/sanctopia/card.png"
 image_hero: "../../assets/images/projects/sanctopia/hero.png"
 ---
+## À propos
 
 **Notre premier projet qui a adopté le nom de l’association. Il a pour but de créer un lien plus fort entre le public et les sanctuaires qui font de leur mieux pour aider les animaux qui sont malheureusement victime du spécisme.**
 

@@ -23,16 +23,27 @@ const { Content, headings } = await render(project);
       <div class="badge badge-neutral motion-preset-slide-up">{project.data.state}</div>
     </div>
   </header>
-  <article class="mx-auto w-full max-w-5xl p-6 py-12 md:p-12">
-    <Prose>
-      <Content />
-    </Prose>
-  </article>
-  <div class="h-30 motion-preset-slide-down sticky bottom-0 flex items-center justify-center px-4 mb-12">
-    <a class="btn btn-xl btn-accent" href={project.data.url}>Accèder au projet</a>
+  <div class="bg-accent w-full">
+    <div class="max-w-5xl p-12 md:p-24 w-full mx-auto flex flex-col md:flex-row gap-12 items-center">
+      <div class="flex flex-col gap-2">
+        <h1 class="font-serif text-gold text-3xl font-bold uppercase text-center">Sponsors</h1>
+        <p class="text-secondary-content">Ce projet n'a pas de sponsors pour le moment 😢</p>
+        <a class=" text-right text-sm text-white underline mt-6">Devenez un sponsor officiel du projet</a>
+      </div>
+    </div>
   </div>
-  <div class="bg-base-300 p-12 md:p-24 w-full">
-    <div class="max-w-5xl w-full mx-auto flex flex-col md:flex-row gap-12 items-center">
+  <div class="relative">
+    <article class="mx-auto w-full max-w-5xl p-6 py-12 md:p-24">
+      <Prose>
+        <Content />
+      </Prose>
+    </article>
+    <div class="h-30 motion-preset-slide-down sticky bottom-0 flex items-center justify-center px-4 mb-12">
+      <a class="btn btn-xl btn-secondary" href={project.data.url}>Accèder au projet</a>
+    </div>
+  </div>
+  <div class="bg-base-300 w-full">
+    <div class="max-w-5xl p-12 md:p-24 w-full mx-auto flex flex-col md:flex-row gap-12 items-center">
       <div class="flex flex-col gap-2">
         <h1 class="font-serif text-brown text-3xl font-bold uppercase">L'Association Sanctopia a besoin de vous !</h1>
         <p class="text-xl">Nous avons besoin de dons pour maintenir et faire évoluer ce projet. Si vous croyez en nous et en ce projet, votre don sera</p>
