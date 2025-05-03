@@ -34,9 +34,11 @@ const projects = await getCollection('projects');
         </div>
       </div>
       <ul class="-mt-[460px] flex flex-row grap-4 items-center justify-center px-4">
-        {projects.map(project => (
-          <ProjectCard {...project.data} />
-        ))}
+        <li>
+          {projects.map(project => (
+            <ProjectCard {...project.data} />
+          ))}
+        </li>
       </ul>
     </section>
   </div>

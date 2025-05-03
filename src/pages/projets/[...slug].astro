@@ -1,6 +1,8 @@
 ---
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
+import { Image } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
+import Prose from '../../components/Prose.astro';
 
 export async function getStaticPaths() {
   const projects =  await getCollection("projects");
@@ -10,7 +12,22 @@ export async function getStaticPaths() {
 };
 
 const project = await getEntry('projects', Astro.params.slug)
+const { Content, headings } = await render(project);
 ---
 
-<Layout title={`Project ${project.data.title}`} description={project.data.meta_description}>
+<Layout title={`Projet ${project.data.title}`} description={project.data.meta_description}>
+  <div class="project">
+    <header class="h-[500px] relative">
+      <Image src={project.data.image_hero} alt={project.data.title} class="inset-0 absolute object-cover h-full w-full" />
+      <div class="flex items-center justify-center absolute inset-0 bg-accent/70 gap-4 flex-col">
+        <h1 class="font-serif text-white font-black text-5xl text-shadow-lg">Projet {project.data.title}</h1>
+        <div class="badge badge-neutral">{project.data.state}</div>
+      </div>
+    </header>
+    <article class="mx-auto w-full max-w-5xl p-12">
+      <Prose>
+        <Content />
+      </Prose>
+    </article>
+  </div>
 </Layout>
