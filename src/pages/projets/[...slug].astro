@@ -16,11 +16,11 @@ const { Content, headings } = await render(project);
 ---
 
 <Layout title={`Projet ${project.data.title}`} description={project.data.meta_description}>
-  <header class="h-[500px] relative">
-    <Image src={project.data.image_hero} alt={project.data.title} class="inset-0 absolute object-cover h-full w-full" />
+  <header class="h-[500px] relative overflow-hidden">
+    <Image src={project.data.image_hero} alt={project.data.title} class="inset-0 absolute object-cover h-full w-full motion-preset-focus motion-preset-shrink" />
     <div class="flex items-center justify-center absolute inset-0 bg-accent/70 gap-4 flex-col">
-      <h1 class="font-serif text-white font-black text-5xl text-shadow-lg">Projet {project.data.title}</h1>
-      <div class="badge badge-neutral">{project.data.state}</div>
+      <h1 class="motion-preset-slide-down font-serif text-white font-black text-5xl text-shadow-lg">Projet {project.data.title}</h1>
+      <div class="badge badge-neutral motion-preset-slide-up">{project.data.state}</div>
     </div>
   </header>
   <article class="mx-auto w-full max-w-5xl p-6 py-12 md:p-12">
@@ -28,7 +28,7 @@ const { Content, headings } = await render(project);
       <Content />
     </Prose>
   </article>
-  <div class="h-30 sticky bottom-0 flex items-center justify-center px-4 mb-12">
+  <div class="h-30 motion-preset-slide-down sticky bottom-0 flex items-center justify-center px-4 mb-12">
     <a class="btn btn-xl btn-accent" href={project.data.url}>Accèder au projet</a>
   </div>
   <div class="bg-base-300 p-12 md:p-24 w-full">
