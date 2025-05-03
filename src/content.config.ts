@@ -8,7 +8,7 @@ const projects = defineCollection({
     slug: z.string(),
     meta_description: z.string(),
     description: z.string(),
-    state: z.enum(['live', 'in_development', 'exploring', 'pending']),
+    state: z.enum(["Live", "En développement", "Phase d'exploration"]),
     launch_date: z.date(),
     image_card: image()
   })
