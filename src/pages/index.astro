@@ -26,10 +26,12 @@ const projects = await getCollection('projects');
         <a class="btn btn-xl btn-neutral motion-preset-slide-up" href="/">Faire un don</a>
       </div>
     </div>
-    <section class="bg-dark-green flex flex-col lg:gap-2 items-center px-12 lg:pt-36 h-dvh overflow-hidden">
-      <h2 class="h2 intersect:motion-preset-slide-right motion-duration-500">Nos projets</h1>
-      <p class="text-neutral text-center text-sm lg:text-lg intersect:motion-preset-slide-left motion-duration-500">Chaque projet a pour but d’aider la cause animale</p>
-      <ul>
+    <section class="overflow-hidden">
+      <div class="bg-dark-green flex flex-col lg:gap-2 items-center px-12 lg:pt-36 pb-96">
+        <h2 class="h2 intersect:motion-preset-slide-right motion-duration-500">Nos projets</h1>
+        <p class="text-neutral text-center text-sm lg:text-lg intersect:motion-preset-slide-left motion-duration-500">Chaque projet a pour but d’aider la cause animale</p>
+      </div>
+      <ul class="-mt-82 flex flex-row grap-4 items-center justify-center px-2">
         {projects.map(project => (
           <ProjectCard {...project.data} />
         ))}

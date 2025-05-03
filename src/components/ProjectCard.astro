@@ -1,9 +1,14 @@
 ---
-const { title, description, state, slug } = Astro.props;
+import { Image } from 'astro:assets';
+
+const { title, description, state, slug, image_card } = Astro.props;
 ---
 
-<div class="bg-cyan-900 rounded-lg shadow-lg p-12 relative relative">
-  <a href={`/projets/${slug}`} class="block absolute inset-0"></a>
-  <h3 class="text-cyan-100 font-bold text-lg">{title}</h3>
-  <p class="text-cyan-400">{description}</p>
+<div class="bg-cyan-950/90 hover:bg-cyan-900/70 backdrop-blur-lg rounded-xl shadow-lg p-8 relative flex flex-col overflow-hidden h-[660px] max-w-96">
+  <a href={`/projets/${slug}`} class="block absolute inset-0 z-10"></a>
+  <Image src={image_card} alt={title} class="absolute inset-0 h-full object-cover object-top z-0" />
+  <div class="relative mt-auto">
+    <h3 class="text-brown font-bold text-lg">{title}</h3>
+    <p>{description}</p>
+  </div>
 </div>
