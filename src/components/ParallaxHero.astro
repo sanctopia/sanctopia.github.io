@@ -17,7 +17,7 @@ const { images } = Astro.props;
   let totalLayers = layers.length;
   let firstLayer = layers[0];
 
-  window.addEventListener("scroll", () => {
+  function moveParallax() {
     const scrollY = window.scrollY;
     if (scrollY / firstLayer.height < 0.76) {
       layers[totalLayers - 1].style.setProperty('top', `-${scrollY / 2}px`)
@@ -25,5 +25,9 @@ const { images } = Astro.props;
       layers[totalLayers - 3].style.setProperty('top', `-${scrollY / 4}px`)
       layers[totalLayers - 4].style.setProperty('top', `-${scrollY / 5}px`)
     }
-  });
+  }
+
+  moveParallax();
+
+  window.addEventListener("scroll", moveParallax);
 </script>

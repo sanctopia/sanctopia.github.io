@@ -8,6 +8,7 @@ state: "En développement"
 launch_date: 2025-09-01
 image_card: "../../assets/images/projects/sanctopia/card.png"
 image_hero: "../../assets/images/projects/sanctopia/hero.png"
+position: 1
 ---
 ## À propos
 

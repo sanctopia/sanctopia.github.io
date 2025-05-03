@@ -12,7 +12,8 @@ const projects = defineCollection({
     launch_date: z.date(),
     image_card: image(),
     image_hero: image(),
-    url: z.string()
+    url: z.string(),
+    position: z.number()
   })
 });
 
