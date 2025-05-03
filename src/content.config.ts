@@ -11,7 +11,8 @@ const projects = defineCollection({
     state: z.enum(["Live", "En développement", "Phase d'exploration"]),
     launch_date: z.date(),
     image_card: image(),
-    image_hero: image()
+    image_hero: image(),
+    url: z.string()
   })
 });
 

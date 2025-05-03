@@ -16,18 +16,28 @@ const { Content, headings } = await render(project);
 ---
 
 <Layout title={`Projet ${project.data.title}`} description={project.data.meta_description}>
-  <div class="project">
-    <header class="h-[500px] relative">
-      <Image src={project.data.image_hero} alt={project.data.title} class="inset-0 absolute object-cover h-full w-full" />
-      <div class="flex items-center justify-center absolute inset-0 bg-accent/70 gap-4 flex-col">
-        <h1 class="font-serif text-white font-black text-5xl text-shadow-lg">Projet {project.data.title}</h1>
-        <div class="badge badge-neutral">{project.data.state}</div>
+  <header class="h-[500px] relative">
+    <Image src={project.data.image_hero} alt={project.data.title} class="inset-0 absolute object-cover h-full w-full" />
+    <div class="flex items-center justify-center absolute inset-0 bg-accent/70 gap-4 flex-col">
+      <h1 class="font-serif text-white font-black text-5xl text-shadow-lg">Projet {project.data.title}</h1>
+      <div class="badge badge-neutral">{project.data.state}</div>
+    </div>
+  </header>
+  <article class="mx-auto w-full max-w-5xl p-6 py-12 md:p-12">
+    <Prose>
+      <Content />
+    </Prose>
+  </article>
+  <div class="h-30 sticky bottom-0 flex items-center justify-center px-4 mb-12">
+    <a class="btn btn-xl btn-accent" href={project.data.url}>Accèder au projet</a>
+  </div>
+  <div class="bg-base-300 p-12 md:p-24 w-full">
+    <div class="max-w-5xl w-full mx-auto flex flex-col md:flex-row gap-12 items-center">
+      <div class="flex flex-col gap-2">
+        <h1 class="font-serif text-brown text-3xl font-bold uppercase">L'Association Sanctopia a besoin de vous !</h1>
+        <p class="text-xl">Nous avons besoin de dons pour maintenir et faire évoluer ce projet. Si vous croyez en nous et en ce projet, votre don sera</p>
       </div>
-    </header>
-    <article class="mx-auto w-full max-w-5xl p-12">
-      <Prose>
-        <Content />
-      </Prose>
-    </article>
+      <a class="btn btn-xl" href="">Faire un don</a>
+    </div>
   </div>
 </Layout>
