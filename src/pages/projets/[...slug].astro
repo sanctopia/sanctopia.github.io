@@ -1,5 +1,5 @@
 ---
-import { getCollection, getEntry, render } from 'astro:content';
+import { getCollection, getEntry, getEntries, render } from 'astro:content';
 import { Image } from 'astro:assets';
 import Layout from '../../layouts/Layout.astro';
 import Prose from '../../components/Prose.astro';
@@ -12,6 +12,7 @@ export async function getStaticPaths() {
 };
 
 const project = await getEntry('projects', Astro.params.slug)
+const volunteersNeeded = !!project.data.volunteers_needed ? await getEntries(project.data.volunteers_needed) : [];
 const { Content, headings } = await render(project);
 ---
 
@@ -26,7 +27,7 @@ const { Content, headings } = await render(project);
   <div class="bg-accent w-full">
     <div class="max-w-5xl p-12 md:p-24 w-full mx-auto flex flex-col md:flex-row gap-12 items-center">
       <div class="flex flex-col justify-center mx-auto items-center gap-2">
-        <h1 class="font-serif text-gold text-3xl font-bold uppercase text-center">Sponsors</h1>
+        <h1 class="font-serif text-gold text-5xl font-bold uppercase text-center">Sponsors</h1>
         <p class="text-secondary-content">Ce projet n'a pas de sponsors pour le moment 😢</p>
         <a class=" text-right text-sm text-white underline mt-6">Devenez un sponsor officiel du projet</a>
       </div>
@@ -42,11 +43,43 @@ const { Content, headings } = await render(project);
       <a class="btn btn-xl btn-secondary" href={project.data.url}>Accèder au projet</a>
     </div>
   </div>
+  <div class="bg-base-200 w-full">
+    <div class="max-w-5xl p-6 py-12 md:p-24 w-full mx-auto flex flex-col md:flex-row gap-12 items-center">
+      <div class="flex flex-col gap-12">
+        <div class="flex flex-col gap-2">
+          <h1 class="font-serif text-gold text-5xl text-center font-black uppercase">Espace bénévoles</h1>
+          <p class="text-lg">Nous avons besoin de certaines compétences pour faire avancer ce projet. Si vous êtes passionné par la cause animale, et que vous avez une des compétences suivantes, n'hésitez pas à nous envoyer votre CV avec lettre de motivation.</p>
+        </div>
+        {volunteersNeeded.length > 0 ? (
+          <ul class="list bg-base-100 rounded-lg shadow-sm">
+            <li class="p-4 pb-2 text-xs opacity-60 tracking-wide">Rôles</li>
+            
+            {volunteersNeeded.map(role => (
+              <li class="list-row">
+                <div>
+                  <div class="text-base font-medium">{role.data.title}</div>
+                  <div class="text-xs uppercase font-semibold opacity-60">{role.data.skills.join(', ')}</div>
+                </div>
+                <p class="list-col-wrap">{role.data.description}</p>
+                <button class="btn btn-square btn-ghost ml-auto">
+                  <svg class="size-[1.2em]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+                </button>
+              </li>
+            ))}
+          </ul>
+          ) : (
+            <div>
+              <p>Ce projet n'a pas de rôles précis, mais si vous pensez avoir certaines compétences qui pourraient aider ce project, n'hésitez pas à nous <a href="" class="underline">contacter</a>.</p>
+            </div>
+          )}
+      </div>
+    </div>
+  </div>
   <div class="bg-base-300 w-full">
     <div class="max-w-5xl p-12 md:p-24 w-full mx-auto flex flex-col md:flex-row gap-12 items-center">
       <div class="flex flex-col gap-2">
-        <h1 class="font-serif text-brown text-3xl font-bold uppercase">L'Association Sanctopia a besoin de vous !</h1>
-        <p class="text-xl">Si vous croyez en nous et en ce projet, votre don nous permettra de maintenir et faire évoluer ce projet qui aide les animaux non-humain, victimes de spécisme.</p>
+        <h1 class="font-serif text-brown text-2xl font-bold uppercase">Ce projet a besoin d'aide financière !</h1>
+        <p>Si vous croyez en nous et en ce projet, votre don nous permettra de maintenir et faire évoluer ce projet qui aide les animaux non-humain, victimes de spécisme.</p>
       </div>
       <a class="btn btn-xl" href="">Faire un don</a>
     </div>

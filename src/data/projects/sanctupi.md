@@ -3,7 +3,7 @@ title: "Sanctupi"
 slug: "sanctupi"
 url: ""
 meta_description: "Sanctupi est la version pour enfants de Sanctopia. Il permet au plus jeune de découvrir les animaux qui sont malheureusement exploités, d'une façon intéractive et innovatrice."
-description: "Ce projet a pour but de créer un lien entre les enfants et les animaux qui vivent dans les sanctuaires, leur apprenant des concepts comme le spécisme."
+description: "Ce projet aurait pour but de créer un lien entre les enfants et les animaux qui vivent dans les sanctuaires, leur apprenant des concepts comme le spécisme."
 state: "Phase d'exploration"
 launch_date: 2025-09-01
 image_card: "../../assets/images/projects/sanctupi/card.png"

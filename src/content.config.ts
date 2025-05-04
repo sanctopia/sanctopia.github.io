@@ -1,4 +1,4 @@
-import { defineCollection, z } from "astro:content";
+import { defineCollection, z, reference } from "astro:content";
 import { glob } from "astro/loaders";
 
 const projects = defineCollection({
@@ -13,8 +13,21 @@ const projects = defineCollection({
     image_card: image(),
     image_hero: image(),
     url: z.string(),
-    position: z.number()
+    position: z.number(),
+    volunteers_needed: z.array(reference('volunteers')).optional()
   })
 });
 
-export const collections = { projects };
+const volunteers = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/data/volunteers" }),
+  schema: z.object({
+    title: z.string(),
+    slug: z.string(),
+    meta_description: z.string(),
+    description: z.string(),
+    skills: z.array(z.string()),
+    project: reference('projects').optional()
+  })
+})
+
+export const collections = { projects, volunteers };

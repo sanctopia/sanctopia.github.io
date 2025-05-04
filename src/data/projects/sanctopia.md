@@ -9,6 +9,10 @@ launch_date: 2025-09-01
 image_card: "../../assets/images/projects/sanctopia/card.png"
 image_hero: "../../assets/images/projects/sanctopia/hero.png"
 position: 1
+volunteers_needed:
+- sanctopia/ingenieur-logiciel
+- sanctopia/ux-ui-designer
+- sanctopia/artiste-3d
 ---
 ## À propos
 
