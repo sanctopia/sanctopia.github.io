@@ -17,7 +17,7 @@ const { Content, headings } = await render(project);
 ---
 
 <Layout title={`Projet ${project.data.title}`} description={project.data.meta_description}>
-  <header class="h-[500px] relative overflow-hidden">
+  <header class="h-[73dvh] relative overflow-hidden">
     <Image src={project.data.image_hero} alt={project.data.title} class="inset-0 absolute object-cover h-full w-full motion-preset-focus motion-preset-shrink" />
     <div class="flex items-center justify-center absolute inset-0 bg-accent/70 gap-4 flex-col">
       <h1 class="motion-preset-slide-down font-serif text-white font-black text-5xl text-shadow-lg">Projet {project.data.title}</h1>
@@ -75,6 +75,7 @@ const { Content, headings } = await render(project);
       </div>
     </div>
   </div>
+  <div class="triangle-down"><div></div>
   <div class="bg-base-300 w-full">
     <div class="max-w-5xl p-12 md:p-24 w-full mx-auto flex flex-col md:flex-row gap-12 items-center">
       <div class="flex flex-col gap-2">

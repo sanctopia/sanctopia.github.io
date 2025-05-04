@@ -48,29 +48,57 @@
 
 .wave-container {
   position: relative;
-  height: 170px;
+  height: 180px;
   background-color: #0d1619;
   overflow: hidden;
 }
 
+/* Bottom wave: mid-tone transition color */
 .wave-container::before {
+  content: "";
+  position: absolute;
+  bottom: 0; /* sink it a couple of pixels so it blends */
+  left: 0;
+  width: 100%;
+  height: 160px; /* a bit taller so it peeks out under the cream wave */
+  background: url("data:image/svg+xml;charset=utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 134' preserveAspectRatio='none'>\
+<path d='M0 98L50 92C100 86 200 74 300 50C400 26 500 -10 600 2C700 14 800 74 900 98C1000 122 1100 110 1150 104L1200 98V134H1150C1100 134 1000 134 900 134C800 134 700 134 600 134C500 134 400 134 300 134C200 134 100 134 50 134H0V98Z' fill='%23e0d5c0'/>\
+</svg>") repeat-x bottom left/1200px 160px;
+}
+
+/* Top wave: the cream color */
+.wave-container::after {
   content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 142px;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 134' preserveAspectRatio='none'%3E%3Cpath d='M0 98L50 92C100 86 200 74 300 50C400 26 500 -10 600 2C700 14 800 74 900 98C1000 122 1100 110 1150 104L1200 98V134H1150C1100 134 1000 134 900 134C800 134 700 134 600 134C500 134 400 134 300 134C200 134 100 134 50 134H0V98Z' fill='%23f8f0e3'/%3E%3C/svg%3E");
-  background-repeat: repeat-x;
-  background-size: 1200px 134px;
-  background-position: bottom left;
+  background: url("data:image/svg+xml;charset=utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 134' preserveAspectRatio='none'>\
+<path d='M0 98L50 92C100 86 200 74 300 50C400 26 500 -10 600 2C700 14 800 74 900 98C1000 122 1100 110 1150 104L1200 98V134H1150C1100 134 1000 134 900 134C800 134 700 134 600 134C500 134 400 134 300 134C200 134 100 134 50 134H0V98Z' fill='%23f8f0e3'/>\
+</svg>") repeat-x bottom left/1200px 142px;
 }
 
 @media (max-width: 850px) {
   .wave-container::before {
+    height: 80px;
+    background-size: 1200px 80px;
+  }
+  .wave-container::after {
     height: 71px;
     background-size: 1200px 71px;
   }
+}
+
+.top {
+  clip-path: polygon(0 0,100% 0,100% calc(100% - 100px),50% 100%,0 calc(100% - 100px));
+}
+
+.bottom {
+  clip-path: polygon(0 0,50% 100px,100% 0,100% 100%,0 100%);
+  margin-top: -100px;
 }
 
 .btn {
