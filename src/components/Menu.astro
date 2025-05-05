@@ -1,0 +1,73 @@
+---
+---
+
+<li><a href="/">Acceuil</a></li>
+<li><a href="/projets">Projets</a></li>
+<li>
+  <details>
+    <summary>L'association</summary>
+    <ul class="p-2">
+      <li><a href="/a-propos">À propos</a></li>
+      <li><a href="/valeurs">Valeurs</a></li>
+      <li><a href="/mission">Mission</a></li>
+    </ul>
+  </details>
+</li>
+<li>
+  <details>
+    <summary>Aider</summary>
+    <ul class="p-2">
+      <li><a href="/dons">Dons</a></li>
+      <li><a href="/benevolat">Bénévolat</a></li>
+      <li><a href="/sponsors">Sponsors</a></li>
+    </ul>
+  </details>
+</li>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  // Get all dropdown details elements
+  const dropdowns = document.querySelectorAll('.menu-horizontal details');
+  
+  // Function to close all dropdowns
+  const closeAllDropdowns = () => {
+    dropdowns.forEach(dropdown => {
+      dropdown.removeAttribute('open');
+    });
+  };
+  
+  // Function to close all dropdowns except the one clicked
+  const closeOtherDropdowns = (currentDropdown) => {
+    dropdowns.forEach(dropdown => {
+      if (dropdown !== currentDropdown) {
+        dropdown.removeAttribute('open');
+      }
+    });
+  };
+  
+  // Add click event to each dropdown
+  dropdowns.forEach(dropdown => {
+    dropdown.addEventListener('click', (e) => {
+      // Prevent the click from bubbling up to document
+      e.stopPropagation();
+      
+      // Close other dropdowns when one is clicked
+      closeOtherDropdowns(dropdown);
+    });
+  });
+  
+  // Add click event to document to close all dropdowns when clicking outside
+  document.addEventListener('click', () => {
+    closeAllDropdowns();
+  });
+  
+  // Prevent dropdown from closing when clicking inside the dropdown content
+  const dropdownContents = document.querySelectorAll('.menu-horizontal details ul');
+    dropdownContents.forEach(content => {
+      content.addEventListener('click', (e) => {
+        // Prevent the click from closing the dropdown
+        e.stopPropagation();
+      });
+    });
+  });
+</script>

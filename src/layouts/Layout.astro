@@ -4,6 +4,7 @@ import '@fontsource-variable/catamaran';
 
 import "../styles/global.css";
 import BaseHead from "../components/BaseHead.astro";
+import Nav from "../components/Nav.astro";
 
 
 const { title, description } = Astro.props;
@@ -22,70 +23,7 @@ const { title, description } = Astro.props;
     <BaseHead title={title} description={description} />
 	</head>
 	<body class="flex flex-col relative drawer">
-    <input id="drawer" type="checkbox" class="drawer-toggle" />
-    <div class="drawer-side z-50">
-      <label for="drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-      <ul class="menu bg-base-200 min-h-full w-80 p-4">
-        <li><a href="/">Acceuil</a></li>
-        <li><a href="/projets">Projets</a></li>
-        <li>
-          <details>
-            <summary>L'association</summary>
-            <ul class="p-2">
-              <li><a>À propos</a></li>
-              <li><a>Valeurs</a></li>
-              <li><a>Mission</a></li>
-            </ul>
-          </details>
-        </li>
-        <li>
-          <details>
-            <summary>Aider</summary>
-            <ul class="p-2">
-              <li><a>Dons</a></li>
-              <li><a>Bénévolat</a></li>
-              <li><a>Sponsors</a></li>
-            </ul>
-          </details>
-        </li>
-      </ul>
-    </div>
-    <div class="navbar sticky bg-base-100/80 backdrop-blur-lg top-0 z-40">
-      <div class="navbar-start">
-        <label for="drawer" tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-        </label>
-      </div>
-      <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
-          <li><a href="/">Acceuil</a></li>
-          <li><a href="/projets">Projets</a></li>
-          <li>
-            <details>
-              <summary>L'association</summary>
-              <ul class="p-2">
-                <li><a>À propos</a></li>
-                <li><a>Valeurs</a></li>
-                <li><a>Mission</a></li>
-              </ul>
-            </details>
-          </li>
-          <li>
-            <details>
-              <summary>Aider</summary>
-              <ul class="p-2">
-                <li><a>Dons</a></li>
-                <li><a>Bénévolat</a></li>
-                <li><a>Sponsors</a></li>
-              </ul>
-            </details>
-          </li>
-        </ul>
-      </div>
-      <div class="navbar-end">
-        <a class="btn btn-accent">Faire un don</a>
-      </div>
-    </div>
+    <Nav />
     <slot />
 	</body>
 </html>
