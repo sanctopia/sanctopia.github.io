@@ -20,7 +20,7 @@ C'est pourquoi notre mission est de vous accompagner pour cultiver et pérennise
 
 ## 🐾 Comment ça fonctionne ?
 
-Contrairement aux plateformes de collecte traditionnelles comme HelloAsso, Sanctopia se positionne comme une interface d'engagement innovante. Nous développons et mettons à votre disposition des outils spécialisés pour enrichir et approfondir les interactions entre votre sanctuaire et vos donateurs.
+Sanctopia se positionne comme une interface d'engagement innovante. Nous développons et mettons à votre disposition des outils spécialisés pour enrichir et approfondir les interactions entre votre sanctuaire et vos donateurs.
 
 Notre plateforme vous offre la possibilité de :
 1. **Connecter votre compte HelloAsso**  
