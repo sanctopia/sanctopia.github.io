@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--primary button--lg"
             to="/category/sanctuaires">
-            Documentation
+            Explorer
           </Link>
         </div>
       </div>
