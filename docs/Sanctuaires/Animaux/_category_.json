@@ -1,0 +1,8 @@
+{
+  "label": "Animaux",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Ajouter les rescapés de votre sanctuaire à Sanctopia, permettant aux donateurs de devenir leurs gardiens et d'agir auprès d'eux."
+  }
+}
