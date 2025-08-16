@@ -3,11 +3,14 @@ sidebar_position: 1
 ---
 # Association Sanctopia
 
+:::info
 **Association loi du 1er juillet 1901**  
-**RNA : W922022178**  
+
+**RNA** : W922022178  
 **Adresse :** 21 rue du Calvaire, 92210 Saint-Cloud  
 **Création :** 27 mai 2025  
 **Publication au JO :** 3 juin 2025  
+:::
 
 ## 🎯 Vision
 Encourager un monde où les animaux sont reconnus comme des êtres sensibles, grâce à un public uni et engagé aux côtés des sanctuaires.

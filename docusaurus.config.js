@@ -48,19 +48,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js'
+          sidebarPath: './sidebars.js',
+          routeBasePath: '/', // Serve the docs at the site's root
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false, // Disable blog since docs are served at root
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -101,11 +92,11 @@ const config = {
             items: [
               {
                 label: 'Pour les sanctuaires',
-                to: '/docs/category/sanctuaires',
+                to: '/category/sanctuaires',
               },
               {
                 label: 'Pour les gardiens',
-                to: '/docs/category/gardiens',
+                to: '/category/gardiens',
               }
             ],
           },
