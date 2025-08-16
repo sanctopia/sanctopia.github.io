@@ -93,10 +93,6 @@ const config = {
               {
                 label: 'Pour les sanctuaires',
                 to: '/category/sanctuaires',
-              },
-              {
-                label: 'Pour les gardiens',
-                to: '/category/gardiens',
               }
             ],
           },
