@@ -27,7 +27,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Association Sanctopia', // Usually your GitHub org/user name.
+  organizationName: 'sanctopia', // Usually your GitHub org/user name.
   projectName: 'sanctopia_docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
