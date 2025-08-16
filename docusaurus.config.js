@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Documentation Sanctopia',
-  tagline: 'Mieux comprendre la plateforme',
+  tagline: 'Explorer comment utiliser la plateforme Sanctopia',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -49,7 +49,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/', // Serve the docs at the site's root
         },
         blog: false, // Disable blog since docs are served at root
         theme: {

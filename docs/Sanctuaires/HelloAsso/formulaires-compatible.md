@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-# Formulaire compatible avec Sanctopia
+# Céer une campagne de don compatible avec Sanctopia
 
-## 🔑 Code PIN Sanctopia
+## 🧑‍🏫 Comment ça marche ? 
 
-Pour que Sanctopia puisse reconnaitre les dons venant fait à travers sa plateforme, et pour récompenser les donateurs, il est nécessaire que les formulaires contiennent des **informations complémentaire**.
+Pour que Sanctopia puisse reconnaitre les dons fait à travers sa plateforme, et pour récompenser les donateurs, il est nécessaire que les formulaires contiennent des **informations complémentaire**.
 
 Lorsqu'un donateur souhaites faire un don, Sanctopia génére automatiquement un **code PIN** que le donateur devra ajouter au formulaire de don.
 
