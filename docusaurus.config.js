@@ -49,6 +49,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/', // Serve the docs at the site's root
         },
         blog: false, // Disable blog since docs are served at root
         theme: {
