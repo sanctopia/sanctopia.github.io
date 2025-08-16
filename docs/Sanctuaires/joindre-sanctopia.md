@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Joindre Sanctopia
+# 🙋‍♀️ Joindre Sanctopia
 
 Les animaux que Sanctopia essaye d'aider sont les plus opprésaient au monde, souvent vu comme des simples objets. Sanctopia se doit de s'assurer que les sanctuaires qui rejoignent sa plateforme les représentent respectueusement, comme des individus, et non pas comme des marchandises, moyens de transports, outils, ou sous tout autre forme qui justifieraient leurs exploitations.
 

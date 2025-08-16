@@ -1,7 +1,8 @@
 {
-  "label": "HelloAsso",
+  "label": "💝 Intégration HelloAsso",
   "position": 3,
   "link": {
+    "slug": "integration-helloasso",
     "type": "generated-index",
     "description": "Tirez le meilleur parti de HelloAsso avec Sanctopia"
   }

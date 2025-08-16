@@ -1,0 +1,9 @@
+{
+  "label": "💶 Budget mensuel",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "slug": "budget-mensuel",
+    "description": "Sanctopia vous permet de mettre en place un budget mensuel. Le budget mensuel agit comme une cagnotte, mais pour dons mensuels. Mettre en place permet de montrer aux donateurs le cout mensuel de votre senctuaire, et les inciter à mettre en place un don mensuel au lieu d'un don ponctuel."
+  }
+}

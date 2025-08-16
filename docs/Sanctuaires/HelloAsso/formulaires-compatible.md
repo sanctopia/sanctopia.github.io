@@ -1,8 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
+tags:
+  - HelloAsso
 ---
 
-# Céer une campagne de don compatible avec Sanctopia
+# 📋 Céer une campagne de don compatible avec Sanctopia
 
 ## 🧑‍🏫 Comment ça marche ? 
 
@@ -18,6 +20,12 @@ Sans la possibilité d'entrer leur **Code PIN Sanctopia**, il nous sera impossib
 
 ## ✏️ Ajouter un champs **Code PIN Sanctopia** à vos formulaires
 
+:::warning
+Une fois que vous créez une campagne de don avec le champs **Code PIN Sanctopia**, il est possible qu'HelloAsso ajoute automatiquement ce champs a la prochaine campagne de don que vous créerait. Assurez vous de supprimer ce champ quand vous créez des nouvelles campagnes dons qui seront utilisées en dehors de la plateforme Sanctopia.
+:::
+
+### Accéder à une campagne de don
+
 1. Connectez vous à votre compte [HelloAsso](https://auth.helloasso.com/connexion?redirect=https://www.helloasso.com/utilisateur/redirection-backoffice&back=https://www.helloasso.com/).
 
 1. Dans votre compte administrateur, utilisez le menu à gauche pour naviguer sur la page **Mes dons**
@@ -27,6 +35,8 @@ Sans la possibilité d'entrer leur **Code PIN Sanctopia**, il nous sera impossib
 1. Cliquer sur **Créer une campagne de don** (ou **Administrer** sur une campagne de don éxistante)
 
    ![Mes dons](./img/HelloAsso-Mes-dons2.png)
+
+### Informations complémentaires
 
 1. Naviguer dans la section **Informations complémentaires**
 
@@ -51,6 +61,18 @@ Sans la possibilité d'entrer leur **Code PIN Sanctopia**, il nous sera impossib
    Il est important que ce formulaire soit remplie exactement comme ceci. Si votre formualaire est utilisé autre part que sur Sanctopia, il est recommender de **décocher le statut Information obligatoire**.
    :::
 
-   :::info
+   :::tip
    Il est recommender de créer des campagnes de dons qui seront unique à Sanctopia et qui resteront privé pour qu'ils ne soit pas lister sur votre page HelloAsso et éviter leur partage en dehors de Sanctopia.
    :::
+
+### Personnalisation
+
+#### Couleur principale
+
+Sanctopia souhaite offrice une expérience utilisateur unique et intuitive. Lors de la création de campagnes de dons qui seront exclusivement utilisées sur Sanctopia, nous demandons aux sanctuaires que leur formulaire aient la même couleur que le thème utilisé sur notre plateforme:
+
+```
+F0AA72
+```
+
+![Couleur principale](./img/HelloAsso-Couleur-principale.png)

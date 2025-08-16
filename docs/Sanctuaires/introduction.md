@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: Introduction
+title: 👋 Introduction
 ---
 
-# Sanctopia – Pour les sanctuaires
+# 👋 Sanctopia – Pour les sanctuaires
 
 <div align="center">
 
@@ -41,12 +41,6 @@ Notre plateforme vous permet :
 
 ## 🚀 Prêt à commencer ?
 Il vous suffit de :
-1. Créer un compte sur Sanctopia.  
+1. Faire une demande de joindre Sanctopia.  
 2. Connecter votre HelloAsso.  
 3. Ajouter vos animaux et créer vos premières collectes.
-
-## 🔍 Processus de verification
-
-Sanctopia est une plateforme qui veut changer le regard du public envers les individus qui sont trop souvent vu comme des marchandises. Il est important que notre plateforme soit composer de sanctuaires qui partage les même valeurs. C'est pour cela que Sanctopia vérifie chaque sanctuaire ajouter à la plateforme.
-
-Une personne de notre équipe vous contactera une fois que vous avez envoyer votre formulaire d'inscription.
