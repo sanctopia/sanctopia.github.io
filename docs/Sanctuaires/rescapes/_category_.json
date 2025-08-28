@@ -1,9 +1,9 @@
 {
-  "label": "🐽 Animaux",
+  "label": "🐽 Rescapés",
   "position": 5,
   "link": {
     "type": "generated-index",
-    "slug": "animaux",
+    "slug": "rescapes",
     "description": "Ajouter les rescapés de votre sanctuaire à Sanctopia, permettant aux donateurs de devenir leurs gardiens et d'agir auprès d'eux."
   }
 }
