@@ -6,34 +6,48 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #F0AA72;
-  --ifm-color-primary-dark: #ed9a57;
-  --ifm-color-primary-darker: #ec904c;
-  --ifm-color-primary-darkest: #e67628;
-  --ifm-color-primary-light: #f2b985;
-  --ifm-color-primary-lighter: #f3c290;
-  --ifm-color-primary-lightest: #f6d4ad;
+  --ifm-color-primary: #a65d58;
+  --ifm-color-primary-dark: #954e49;
+  --ifm-color-primary-darker: #8b4943;
+  --ifm-color-primary-darkest: #733b37;
+  --ifm-color-primary-light: #b76c67;
+  --ifm-color-primary-lighter: #c27671;
+  --ifm-color-primary-lightest: #d89085;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-footer-background-color: #EDD6C3;
+  --ifm-footer-background-color: #d4beb8;
+  --ifm-navbar-background-color: #F8EEE6;
+  --ifm-background-color: #fdf8f5;
+  --ifm-font-color-base: #723e29;
+  --ifm-menu-color: #723e29;
+  --ifm-link-color: #723e29;
+  --ifm-color-emphasis-600: #954e49;
+  --ifm-color-emphasis-700: #a65d58; 
+  --ifm-color-emphasis-800: #723e29; 
+  --ifm-link-hover-color: #a65d58;
+  --ifm-card-background-color: #F8EEE6;
+  --ifm-color-content-secondary: #8b4943;
+  --ifm-color-emphasis-200: #F8EEE6;
+  --ifm-color-emphasis-300: #F3E5DA;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #F0AA72;
-  --ifm-color-primary-dark: #ed9a57;
-  --ifm-color-primary-darker: #ec904c;
-  --ifm-color-primary-darkest: #e67628;
-  --ifm-color-primary-light: #f2b985;
-  --ifm-color-primary-lighter: #f3c290;
-  --ifm-color-primary-lightest: #f6d4ad;
+  --ifm-color-primary: #c27671;
+  --ifm-color-primary-dark: #b76c67;
+  --ifm-color-primary-darker: #b0635e;
+  --ifm-color-primary-darkest: #a65d58;
+  --ifm-color-primary-light: #cd817c;
+  --ifm-color-primary-lighter: #d18b86;
+  --ifm-color-primary-lightest: #dda19d;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --ifm-footer-background-color: #EDD6C3;
+  --ifm-footer-background-color: #d4beb8;
+  --ifm-navbar-background-color: #fdf8f5;
 }
 
 .footer {
-  --ifm-footer-background-color: #EDD6C3;
-  --ifm-footer-color: #715C4A;
-  --ifm-footer-link-color: #715C4A;
-  --ifm-footer-title-color: #715C4A;
+  --ifm-footer-background-color: #F8EEE6;
+  --ifm-footer-color: #723e29;
+  --ifm-footer-link-color: #723e29;
+  --ifm-footer-title-color: #723e29;
 }

@@ -72,7 +72,7 @@ Une fois que vous créez une campagne de don avec le champ **Code PIN Sanctopia*
 Sanctopia souhaite offrir une expérience utilisateur unique et intuitive. Lors de la création de campagnes de dons qui seront exclusivement utilisées sur Sanctopia, nous demandons aux sanctuaires que leur formulaire ait la même couleur que le thème utilisé sur notre plateforme :
 
 ```
-F0AA72
+a65d58
 ```
 
 ![Couleur principale](./img/HelloAsso-Couleur-principale.png)
