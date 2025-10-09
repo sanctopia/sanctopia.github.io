@@ -65,11 +65,34 @@ Avant d'appuyer sur **Enregistrer et passer à l'étape suivante** sur la page *
 Nous avons eu des problèmes lorsque nous avons essayé de changer ces options dans des campagnes de dons existantes, donc une fois sauvegardé, il est possible que vous ne soyez pas capable de faire en sorte que votre campagne autorise exclusivement les dons mensuels
 :::
 
-## Informations complémentaires
+### Informations complémentaires
 
-1. Ajoutez le champ **Code PIN Sanctopia** ([Suivez les étapes 5 et 6 dans la section **Ajouter un champ Code PIN Sanctopia à vos formulaires**](../HelloAsso/formulaires-compatible) si vous avez oublié comment faire)
+1. Naviguez dans la section **Informations complémentaires**
 
-1. Cliquez sur **Enregistrer et passer à l'étape suivante**
+   ![Informations complémentaires](./img/HelloAsso-Informations-complementaires.png)
+
+1. Cliquez sur **Ajouter une information** dans la section **Informations sur vos donateurs**
+
+   ![Ajouter une information](./img/HelloAsso-Ajouter-une-information.png)
+
+1. Remplissez le formulaire avec les informations suivantes et cliquez sur **Ajouter** :
+
+   - Intitulé de l'information : **Code PIN Sanctopia**
+   - Type de réponse souhaitée : **Texte court (250 caractères)**
+   - Information rattachée à :
+     - **Mes tarifs**
+       - **Tous les tarifs**
+   - Statut : **✓ Information obligatoire** _(Doit être cochée)_
+
+   ![Nouvelle information](./img/HelloAsso-Nouvelle-information.png)
+
+   :::warning
+   Il est important que ce formulaire soit rempli exactement comme ceci. Si votre formulaire est utilisé autre part que sur Sanctopia, il est recommandé de **décocher le statut Information obligatoire**.
+   :::
+
+   :::tip
+   Il est recommandé de créer des campagnes de dons qui seront uniques à Sanctopia et qui resteront privées pour qu'elles ne soient pas listées sur votre page HelloAsso et éviter leur partage en dehors de Sanctopia.
+   :::
 
 ## Personnalisation
 
@@ -88,13 +111,22 @@ Nous avons eu des problèmes lorsque nous avons essayé de changer ces options d
 
 ### Choisissez le design de votre formulaire
 
-1. HelloAsso va vous demander quel design vous voulez pour votre formulaire. Cette étape n'a pas d'importance. Cliquez sur **Enregistrer**
+1. HelloAsso va vous demander quel design vous voulez pour votre formulaire. Choisissez l'option **Conserver le formulaire actuel**. Cliquez sur **Enregistrer**
+   ![Option conserver le formulaire actuel](./img/HelloAsso-Pret-a-publier-votre-formulaire-1.png)
+   
+   :::danger
+   Sanctopia n'est pas compatible avec le nouveau design des formulaire HelloAsso.
+   :::
 
 ### Choisissez qui peut accéder à votre formulaire
 
 1. Sélectionnez l'option **Privé : Seules les personnes disposant de l'URL du formulaire peuvent y accéder et effectuer un paiement.** 
 
    ![Option privé](./img/HelloAsso-Pret-a-publier-votre-formulaire-2.png)
+
+   :::warning
+   Si vous avez imposé le Code PIN Sanctopia, ce qui est recommendé, il est important que ce formulaire soit privé pour qu'il ne puisse être utilisé que sur Sanctopia.
+   :::
 
 1. Cliquez sur **Publier mon formulaire**
 

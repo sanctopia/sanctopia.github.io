@@ -19,7 +19,8 @@
   --ifm-background-color: #fdf8f5;
   --ifm-font-color-base: #723e29;
   --ifm-menu-color: #723e29;
-  --ifm-link-color: #723e29;
+  --ifm-link-color: #a65d58;
+  --ifm-link-decoration: underline;
   --ifm-color-emphasis-600: #954e49;
   --ifm-color-emphasis-700: #a65d58; 
   --ifm-color-emphasis-800: #723e29; 
@@ -66,4 +67,8 @@ pre[class*="language-"] {
 
 code[class*="language-"] {
   color: #723e29 !important;
+}
+
+.menu__link, .navbar__brand, .navbar__link, .card, .pagination-nav__link {
+  text-decoration: none;
 }

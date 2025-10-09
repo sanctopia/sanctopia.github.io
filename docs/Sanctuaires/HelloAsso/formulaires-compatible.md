@@ -36,6 +36,22 @@ Une fois que vous créez une campagne de don avec le champ **Code PIN Sanctopia*
 
    ![Mes dons](./img/HelloAsso-Mes-dons2.png)
 
+## Informations générales
+
+1. Nommez le formulaire de don
+   :::tip
+   **Nom public**
+
+   Nous recommandons aux sanctuaires de nommer le formulaire pour leur rescapé formulaire `Devenez un gardien de <nom du rescapé>`. En utilisant le même langage, l'expérience utilisateur est claire.
+
+   **Nom privé**
+
+   Vous êtes libre de choisir le nom privé de vos campagnes de dons, mais nous recommandons que vous précisiez que c'est pour Sanctopia pour vous aider à différencier entre les campagnes propres à Sanctopia, et les autres qui seront utilisées en dehors de Sanctopia.
+   :::
+   ![Nom du formulaire](./img/HelloAsso-Nom-du-formulaire.png)
+
+1. Cliquez sur **Enregistrer et passer à l'étape suivante**
+
 ### Informations complémentaires
 
 1. Naviguez dans la section **Informations complémentaires**
@@ -76,3 +92,30 @@ a65d58
 ```
 
 ![Couleur principale](./img/HelloAsso-Couleur-principale.png)
+
+## Prêt à publier votre formulaire ?
+
+### Choisissez le design de votre formulaire
+
+1. HelloAsso va vous demander quel design vous voulez pour votre formulaire. Choisissez l'option **Conserver le formulaire actuel**. Cliquez sur **Enregistrer**
+   ![Option conserver le formulaire actuel](./img/HelloAsso-Pret-a-publier-votre-formulaire-1.png)
+   
+   :::danger
+   Sanctopia n'est pas compatible avec le nouveau design des formulaire HelloAsso.
+   :::
+
+### Choisissez qui peut accéder à votre formulaire
+
+1. Sélectionnez l'option **Privé : Seules les personnes disposant de l'URL du formulaire peuvent y accéder et effectuer un paiement.** 
+
+   ![Option privé](./img/HelloAsso-Pret-a-publier-votre-formulaire-2.png)
+
+   :::warning
+   Si vous avez imposé le Code PIN Sanctopia, ce qui est recommendé, il est important que ce formulaire soit privé pour qu'il ne puisse être utilisé que sur Sanctopia.
+   :::
+
+1. Cliquez sur **Publier mon formulaire**
+
+## Prêt pour l'intégration avec Sanctopia
+
+Maintenant que vous avez une campagne de don qui n'accepte que des dons mensuels, vous êtes prêt à connecter ce formulaire à votre budget mensuel sur Sanctopia !
