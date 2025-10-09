@@ -13,7 +13,7 @@ tags:
 
    ![HelloAsso navigation](./img/Sanctopia-menu-helloasso.png)
 
-1. Ajoutez votre **clientId** et **clientSecret** que vous trouvez sur votre compte associatif HelloAsso. Suivez les instruction ici : [Créer une clé API sur HelloAsso](/Sanctuaires/helloasso/creer-une-cle-api)
+1. Ajoutez votre **clientId** et **clientSecret** que vous trouvez sur votre compte associatif HelloAsso. Suivez les instruction ici : [Créer une clé API sur HelloAsso](./creer-une-cle-api)
 
    ![HelloAsso navigation](./img/Sanctopia-HelloAsso-votre-cle-api.png)
 

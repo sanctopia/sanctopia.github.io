@@ -19,7 +19,7 @@ Ajoutez une estimation du coût mensuel de votre sanctuaire. Le montant qui vous
 ## Formulaire de don mensuel
 
 Pour inviter vos donateurs à vous faire un don mensuel, nous recommandons d'attacher un formulaire de don qui permet uniquement de mettre en place un don mensuel.
-Suivez les instructions ici pour créer une campagne de don mensuel : [Campagne de don mensuel](/Sanctuaires/budget-mensuel/campagne-de-don-mensuel)
+Suivez les instructions ici pour créer une campagne de don mensuel : [Campagne de don mensuel](./campagne-de-don-mensuel)
 
 Une fois que votre campagne de don mensuel est créée, elle apparaîtra dans votre liste de formulaires de don.
 
