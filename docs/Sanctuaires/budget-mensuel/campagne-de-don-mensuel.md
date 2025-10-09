@@ -125,7 +125,7 @@ Nous avons eu des problèmes lorsque nous avons essayé de changer ces options d
    ![Option privé](./img/HelloAsso-Pret-a-publier-votre-formulaire-2.png)
 
    :::warning
-   Si vous avez imposé le Code PIN Sanctopia, ce qui est recommendé, il est important que ce formulaire soit privé pour qu'il ne puisse être utilisé que sur Sanctopia.
+   Si vous avez imposé le Code PIN Sanctopia, ce qui est recommandé, il est important que ce formulaire soit privé pour qu'il ne puisse être utilisé que sur Sanctopia.
    :::
 
 1. Cliquez sur **Publier mon formulaire**
