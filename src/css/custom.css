@@ -69,6 +69,6 @@ code[class*="language-"] {
   color: #723e29 !important;
 }
 
-.menu__link, .navbar__brand, .navbar__link, .card, .pagination-nav__link {
+.menu__link, .navbar__brand, .navbar__link, .card, .pagination-nav__link, .button {
   text-decoration: none;
 }
