@@ -3,7 +3,7 @@ sidebar_position: 2
 title: ✍️ Terminologie
 ---
 
-Les mots utilisés influencent la facon dont le public voit ces êtres sensibles. Même si ils peuvent parraitre annodins, il
+Les mots que nous utilisons façonnent profondément la perception du public envers les êtres sensibles. Même s'ils peuvent paraître anodins, certains termes perpétuent des idées spécistes ou normalisent l'exploitation. À l'inverse, un langage réfléchi peut transformer les perspectives et éveiller une conscience nouvelle. Ce guide propose des alternatives qui honorent l'individualité et la dignité de chaque résident de sanctuaire, ainsi que celle de tous ceux qui n'ont pas eu la chance d'être sauvés.
 
 | Terme | Alternatives | Réson |
 |------|----------------|--------|
