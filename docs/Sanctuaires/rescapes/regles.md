@@ -22,7 +22,7 @@ L'Association Sanctopia reste ouverte au dialogue et à la critique constructive
  > #### Explication
  > Il est courant dans les systèmes de parrainage traditionnels de regrouper plusieurs individus sous un même profil. Cette pratique, bien qu'involontaire, efface leur individualité et favorise une perception déshumanisante où ils deviennent des objets plutôt que des êtres uniques.
  >
- > Sanctopia n'acceptera pas la publication de profils regroupant plusieurs individus. Si vous gérez un groupe important d'animaux similaires, sélectionnez-en quelques-uns et créez un profil individuel pour chacun. Cette approche valorise leur unicité, leur personnalité distincte, et permet de mieux décrire leurs relations avec les autres membres du groupe.
+ > Sanctopia n'acceptera pas la publication de profils regroupant plusieurs individus. Si vous accueillez un grand nombre d'individus similaires, sélectionnez-en quelques-uns et créez un profil individuel pour chacun. Cette approche valorise leur unicité, leur personnalité distincte, et permet de mieux décrire leurs relations avec les autres membres du groupe.
  > #### Exemples
  > - ❌ ~~Les poules~~
  > - ❌ ~~Poulette et Pascale~~
@@ -37,7 +37,7 @@ L'Association Sanctopia reste ouverte au dialogue et à la critique constructive
 - Optimise l'engagement et améliore les taux de conversion
 :::
  > #### Explication
- > Traditionnellement, les sanctuaires créent un formulaire de don unique avec une liste déroulante permettant aux donateurs de sélectionner l'animal qu'ils souhaitent parrainer. Bien que pratique, cette méthode était jusqu'à présent la norme faute de meilleures alternatives — Sanctopia change cette donne.
+ > Traditionnellement, les sanctuaires créent un formulaire de don unique avec une liste déroulante permettant aux donateurs de sélectionner l'individu qu'ils souhaitent parrainer. Bien que pratique, cette méthode était jusqu'à présent la norme faute de meilleures alternatives — Sanctopia change cette donne.
  > 
  > HelloAsso offrant la possibilité de créer des campagnes illimitées, nous pouvons désormais exploiter pleinement cette fonctionnalité. L'objectif ? Lorsqu'un utilisateur choisit de devenir gardien d'un rescapé, il accède directement à un formulaire personnalisé lié spécifiquement à cet individu. Cette personnalisation renforce l'engagement émotionnel : le donateur ne devient pas simplement "un parrain", mais le gardien attitré d'un être particulier.
  > 

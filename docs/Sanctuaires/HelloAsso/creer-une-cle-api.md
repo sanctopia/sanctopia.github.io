@@ -6,7 +6,7 @@ tags:
 
 # 🔑 Créer une clé API sur HelloAsso
 
-Une clé API permet à Sanctopia d'accéder à vos formulaires de dons pour que vous puissiez les lier aux animaux et permettre à vos donateurs de devenir des gardiens.
+Une clé API permet à Sanctopia d'accéder à vos formulaires de dons pour que vous puissiez les lier aux rescapés et permettre à vos donateurs de devenir des gardiens.
 
 ## Accéder à la page Intégrations et API
 

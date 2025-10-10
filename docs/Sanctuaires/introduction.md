@@ -12,7 +12,7 @@ title: 👋 Introduction
 </div>
 
 ## 🌱 Pourquoi Sanctopia ?
-Sanctopia est une plateforme gratuite spécialement conçue pour accompagner les sanctuaires animaliers dans le renforcement de leurs liens avec le public. Notre objectif est de vous aider à fidéliser vos soutiens et à transformer chaque geste de générosité en impact concret et durable pour les animaux.  
+Sanctopia est une plateforme gratuite spécialement conçue pour accompagner les sanctuaires dans le renforcement de leurs liens avec le public. Notre objectif est de vous aider à fidéliser vos soutiens et à transformer chaque geste de générosité en impact concret et durable pour les individus que vous protégez.  
 
 Nous comprenons les défis quotidiens auxquels vous faites face : la gestion d'un sanctuaire exige énormément de temps et de ressources, tandis que maintenir l'engagement du public sur le long terme représente un véritable défi.  
 
@@ -25,8 +25,8 @@ Sanctopia se positionne comme une interface d'engagement innovante. Nous dévelo
 Notre plateforme vous offre la possibilité de :
 1. **Connecter votre compte HelloAsso**  
    Intégration automatique : tous les dons effectués via votre page HelloAsso sont automatiquement reliés à votre espace Sanctopia.
-2. **Proposer un système de parrainage enrichi**  
-   Transformez vos donateurs en véritables gardiens de vos animaux, créant ainsi des liens émotionnels durables et significatifs.
+2. **Proposer un système de parrainage enrichi**
+   Transformez vos donateurs en véritables gardiens de vos rescapés, créant ainsi des liens émotionnels durables et significatifs.
 3. **Organiser des collectes et défis interactifs**  
    Dynamisez l'engagement grâce à des cagnottes ciblées, des missions collectives et des objectifs stimulants qui encouragent la participation active.
 4. **Valoriser l'engagement par la reconnaissance**  
@@ -37,7 +37,7 @@ Notre plateforme vous offre la possibilité de :
 - **Transparence accrue** : Offrez à vos soutiens une visibilité claire et détaillée sur l'impact concret de leur contribution.  
 - **Rayonnement élargi** : Bénéficiez d'une exposition croisée permettant aux donateurs d'autres sanctuaires de vous découvrir naturellement.  
 - **Stabilité financière** : Encouragez les dons mensuels récurrents pour établir une base financière prévisible et sécurisée.  
-- **Mission de sensibilisation** : Transformez chaque interaction en opportunité de partager l'histoire unique de vos animaux et de sensibiliser aux enjeux de leur protection.
+- **Mission de sensibilisation** : Transformez chaque interaction en opportunité de partager l'histoire unique de vos rescapés et de sensibiliser aux enjeux de leur protection.
 
 ## 🚀 Prêt à rejoindre l'aventure ?
 Le processus d'intégration est simple et guidé :
