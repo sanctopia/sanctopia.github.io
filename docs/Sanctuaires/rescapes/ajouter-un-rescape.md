@@ -13,17 +13,24 @@ Chaque rescapé doit au moins avoir un nom, une photo, et un formulaire de don.
 
 ![Les bases](./img/Sanctopia-animal-profile.png)
 
-1. **Photo**
-
-   La photo doit montrer l'individu pour qu'il/elle soit reconnaissable.
-
-2. **Nom**
+1. **Nom**
 
    Le nom du rescapé doit être unique.
+
+2. **Galerie de photos**
+
+   Vous pouvez ajouter plusieurs photo de votre rescapé. La première photo doit montrer l'individu pour qu'il/elle soit reconnaissable. Vous pouvez ajouter d'autres photos qui contiennent le rescapé.
+
 
 3. **Formulaire de don**
 
     Choisissez un formulaire de don créé spécifiquement pour ce rescapé. Celui-ci permettra aux donateurs/donatrices de faire un don envers cet individu.
+    :::warning
+    Votre formulaire de don doit accépter des dons ponctuel et mensuel. Sanctopia n'est pas exactement un système de parrainage/marrainage. Au lieu de s'engagé envers un seul individu, Sanctopia permet à ses utilisateurs de s'engagé auprès de plusieurs individus.
+
+    - [Comprendre gardiennage vs parrainage](../gardiennage)
+    - [Créer une campagne de don compatible avec Sanctopia](../helloasso/formulaires-compatible.md)
+    :::
 
 ## Date de naissance, espèce et sex
 

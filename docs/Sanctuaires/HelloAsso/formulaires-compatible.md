@@ -42,7 +42,7 @@ Une fois que vous créez une campagne de don avec le champ **Code PIN Sanctopia*
    :::tip
    **Nom public**
 
-   Nous recommandons aux sanctuaires de nommer le formulaire pour leur rescapé formulaire `Devenez un gardien de <nom du rescapé>`. En utilisant le même langage, l'expérience utilisateur est claire.
+   Nous recommandons aux sanctuaires de nommer le formulaire pour leur rescapé formulaire `Je deviens gardien-ne de <nom du rescapé>`. En utilisant le même langage, l'expérience utilisateur est claire.
 
    **Nom privé**
 
@@ -97,12 +97,7 @@ a65d58
 
 ### Choisissez le design de votre formulaire
 
-1. HelloAsso va vous demander quel design vous voulez pour votre formulaire. Choisissez l'option **Conserver le formulaire actuel**. Cliquez sur **Enregistrer**
-   ![Option conserver le formulaire actuel](./img/HelloAsso-Pret-a-publier-votre-formulaire-1.png)
-   
-   :::danger
-   Sanctopia n'est pas compatible avec le nouveau design des formulaire HelloAsso.
-   :::
+1. HelloAsso va vous demander quel design vous voulez pour votre formulaire. Choisissez l'option **Utiliser le nouveau design**. Cliquez sur **Enregistrer**
 
 ### Choisissez qui peut accéder à votre formulaire
 
