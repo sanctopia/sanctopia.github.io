@@ -29,7 +29,7 @@ Chaque rescapé doit au moins avoir un nom, une photo, et un formulaire de don.
     Votre formulaire de don doit accépter des dons ponctuel et mensuel. Sanctopia n'est pas exactement un système de parrainage/marrainage. Au lieu de s'engagé envers un seul individu, Sanctopia permet à ses utilisateurs de s'engagé auprès de plusieurs individus.
 
     - [Comprendre gardiennage vs parrainage](../gardiennage)
-    - [Créer une campagne de don compatible avec Sanctopia](/sanctuaires/helloasso/formulaires-compatible)
+    - [Créer une campagne de don compatible avec Sanctopia](/Sanctuaires/helloasso/formulaires-compatible)
     :::
 
 ## Date de naissance, espèce et sex
