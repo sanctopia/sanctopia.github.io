@@ -111,12 +111,7 @@ Nous avons eu des problèmes lorsque nous avons essayé de changer ces options d
 
 ### Choisissez le design de votre formulaire
 
-1. HelloAsso va vous demander quel design vous voulez pour votre formulaire. Choisissez l'option **Conserver le formulaire actuel**. Cliquez sur **Enregistrer**
-   ![Option conserver le formulaire actuel](./img/HelloAsso-Pret-a-publier-votre-formulaire-1.png)
-   
-   :::danger
-   Sanctopia n'est pas compatible avec le nouveau design des formulaire HelloAsso.
-   :::
+1. HelloAsso va vous demander quel design vous voulez pour votre formulaire. Choisissez l'option **Utiliser le nouveau design**. Cliquez sur **Enregistrer**
 
 ### Choisissez qui peut accéder à votre formulaire
 
