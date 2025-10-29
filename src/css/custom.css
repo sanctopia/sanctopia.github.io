@@ -72,3 +72,7 @@ code[class*="language-"] {
 .menu__link, .navbar__brand, .navbar__link, .card, .pagination-nav__link, .button {
   text-decoration: none;
 }
+
+.hidden {
+  display: none !important;
+}
