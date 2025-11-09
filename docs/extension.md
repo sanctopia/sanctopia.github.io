@@ -13,11 +13,11 @@ Cette extension reproduit automatiquement les étapes qui devraient être effect
 
 ### Télécharger l'extension
 
-Vous pouvez télécharger l'extension via ce lien : [https://github.com/sanctopia/sanctopia_helloasso_extension/releases/tag/v0.1.0](https://github.com/sanctopia/sanctopia_helloasso_extension/releases/tag/v0.1.0)
+Vous pouvez télécharger l'extension via ce lien : [https://github.com/sanctopia/sanctopia_helloasso_extension/releases/tag/v0.2.0](https://github.com/sanctopia/sanctopia_helloasso_extension/releases/tag/v0.2.0)
 
-Cliquez sur **sanctopia_extension-v0.1.0.zip** en bas de la page.
+Cliquez sur **sanctopia_extension-v0.2.0.zip** en bas de la page.
 
-![Download](./img/download.png)
+![Download](./img/download.jpeg)
 
 ### Extraire l'extension
 
@@ -25,7 +25,7 @@ Le fichier téléchargé est un fichier zip qu'il faut décompresser pour accéd
 
 #### Mac
 
-Sur Mac, double-cliquez sur le fichier `sanctopia_extension-v0.1.0.zip`.
+Sur Mac, double-cliquez sur le fichier `sanctopia_extension-v0.2.0.zip`.
 
 ![Unzip](./img/unzip_mac.png)
 
@@ -33,7 +33,7 @@ Un dossier `sanctopia_extension` sera créé.
 
 #### Windows
 
-Sur Windows, faites un clic droit sur le fichier `sanctopia_extension-v0.1.0.zip`, puis sélectionnez **Extraire tout...**.
+Sur Windows, faites un clic droit sur le fichier `sanctopia_extension-v0.2.0.zip`, puis sélectionnez **Extraire tout...**.
 
 Une fenêtre s'ouvrira pour choisir l'emplacement d'extraction. Cliquez sur **Extraire**.
 
