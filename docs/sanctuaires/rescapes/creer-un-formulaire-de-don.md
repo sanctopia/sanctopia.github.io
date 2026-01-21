@@ -1,10 +1,12 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
+slug: creer-un-formulaire-de-don
 tags:
+  - Recapés
   - HelloAsso
 ---
 
-# 📋 Créer une campagne de don compatible avec Sanctopia
+# 📋 Créer une campagne de don pour un individu
 
 ## 🧑‍🏫 Comment ça marche ?
 

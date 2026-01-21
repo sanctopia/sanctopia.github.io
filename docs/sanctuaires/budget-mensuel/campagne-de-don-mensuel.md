@@ -96,6 +96,14 @@ Nous avons eu des problèmes lorsque nous avons essayé de changer ces options d
 
 ## Personnalisation
 
+#### Description détaillée
+
+Pour améliorer l'expérience utilisateur, il est recommandé d'ajouter une description détaillée au formulaire pour réexpliquer comment ils deviennent gardien·ne en or du sanctuaire.
+
+```
+Devenez un·e gardien·ne en or du sanctuaire en mettant en place un don mensuel.
+```
+
 ### Couleur principale
 
 1. Sanctopia souhaite offrir une expérience utilisateur unique et intuitive. Lors de la création de campagnes de dons qui seront exclusivement utilisées sur Sanctopia, nous demandons aux sanctuaires que leur formulaire ait la même couleur que le thème utilisé sur notre plateforme :
@@ -105,13 +113,13 @@ Nous avons eu des problèmes lorsque nous avons essayé de changer ces options d
 
    ![Couleur principale](./img/HelloAsso-Couleur-principale.png)
 
-1. Cliquez sur **Publier maintenant**
+#### Vignette
+
+Pour assurer une expérience utilisateur agréable, il est recommandé d'utiliser la même photo que celle du profil du sanctuaire comme vignette. Ça permet à l'utilisateur d'être rassuré que le sanctuaire qui recevra le don est bien celui qu'il/elle a choisi.
+
+#### Cliquez sur **Publier maintenant**
 
 ## Prêt à publier votre formulaire ?
-
-### Choisissez le design de votre formulaire
-
-1. HelloAsso va vous demander quel design vous voulez pour votre formulaire. Choisissez l'option **Utiliser le nouveau design**. Cliquez sur **Enregistrer**
 
 ### Choisissez qui peut accéder à votre formulaire
 

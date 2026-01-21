@@ -1,6 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 slug: ajouter-un-rescape
+tags:
+  - Recapés
 ---
 
 # 🐰 Ajouter un·e rescapé·e
@@ -29,7 +31,7 @@ Chaque rescapé doit au moins avoir un nom, une photo, et un formulaire de don.
     Votre formulaire de don doit accépter des dons ponctuel et mensuel. Sanctopia n'est pas exactement un système de parrainage/marrainage. Au lieu de s'engagé envers un seul individu, Sanctopia permet à ses utilisateurs de s'engagé auprès de plusieurs individus.
 
     - [Comprendre gardiennage vs parrainage](../gardiennage)
-    - [Créer une campagne de don compatible avec Sanctopia](../helloasso/formulaires-compatible)
+    - [Créer une campagne de don compatible avec Sanctopia](./creer-un-formulaire-de-don)
     :::
 
 ## Date de naissance, espèce et sex
@@ -52,7 +54,7 @@ Décrivez la personnalité de l'individu du mieux que vous pouvez. Donnez assez 
 
 ## Histoire
 
-Expliquez plus spécifiquement leur histoire. Si vous donnez l'industrie d'où ils ont été sauvés, Sanctopia ajoutera un résumé de pratiques courantes. La section "histoire" est l'opportunité de rendre leur histoire unique.
+Expliquez plus spécifiquement leur histoire. Si vous donnez l'industrie d'où ils ont été sauvés, Sanctopia ajoutera un résumé de pratiques courantes. La section "histoire" est l'opportunité de rendre leur histoire unique. Focalisez-vous sur les événements avant leur arrivée au sanctuaire.
 
 ![Histoire](./img/Sanctopia-animal-histoire.png)
 
